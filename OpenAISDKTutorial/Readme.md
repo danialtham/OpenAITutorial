@@ -20,3 +20,11 @@ Interact with the chat and verify if it retains the history.
 ## Tips
 1. Use `SessionManager.cs` in `ConversationExecutor.cs`
 2. Bonus: Implement clear history functionality
+
+## 3_OwnData
+
+Now try implement passing your own data feature, use the 'build2024bookofnews.txt' file provided in the solution.
+
+## Tips
+1. Make sure instruct AI to only answer what's in the book and don't answer if it's uncertain
+2. Bonus: Implement [`streaming`](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ai.openai-readme?view=azure-dotnet#stream-chat-messages) to get response quicker

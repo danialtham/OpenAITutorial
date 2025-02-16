@@ -1,0 +1,1306 @@
+1. Azure
+1.1. Azure AI Services
+1.1.1. Announcing Azure patterns and practices for private chatbots
+New Microsoft Azure reference architectures and implementation guidance are now generally available for customers to confidently design and deploy intelligent apps. Customers can easily leverage patterns and practices to create private chatbots that are reliable, cost-efficient and compliant — adhering to both the functional and nonfunctional requirements of an organization.
+The new guidance helps customers adopt well-architected best practices and includes:
+A
+reference architecture
+and
+reference implementation
+for Microsoft Azure OpenAI Service based on Azure landing zones, which helps jumpstart and scale app deployment.
+Service guides
+for machine learning that gives precise configuration instructions for Azure services used to deliver intelligent apps.
+Patterns for designing and developing a RAG solution
+: While the architecture is straightforward, designing, experimenting with, and evaluating RAG solutions that fit into this architecture involves many complex considerations that benefit from a rigorous, scientific approach.
+Additional resources
+:
+Email:
+Contact the Microsoft Media and Analyst Events Team for more information
+Breakout:
+Take an Azure OpenAI Service chat application from PoC to enterprise-ready
+1.1.2. Announcing custom generative mode in preview soon
+Custom generative
+is a new model type, coming soon to preview, that will start with a single document and will guide the user through the schema definition and model creation process with minimal labeling, allowing the user to process complex documents with a variety of formats and templates.
+The model will use large language models (LLMs) to extract the fields, and users will only need to correct the output when the model does not get a field right. The model will adapt to each sample added to the training dataset. Add new labeled documents and rebuild the model to continually improve the model after deployment.
+Additional resources
+:
+Email:
+Contact the Microsoft Media and Analyst Events Team for more information
+Breakout:
+Revamping the Document Automation Workflow with Generative AI
+Breakout:
+Going big with multimodal GenAI experiences with Azure AI
+1.1.3. Azure AI Search features search relevance updates and new integrations
+Microsoft Azure AI Search is a full-featured information retrieval system built to run superior retrieval-augmented generation (RAG) and enterprise search. Users can streamline indexing and development with deep data and platform integrations and scale major workloads on an enterprise-ready foundation. State-of-the-art search technology like hybrid search and re-ranking helps deliver the best experience for every user and interaction. Azure AI Search has dramatically increased storage capacity and vector index size for new services at no additional cost, helping customers scale their generative AI apps without compromising cost or performance. New services will have additional compute to support more vectors at high performance.
+Updates to Azure AI Search, in preview now, include:
+Performing RAG at scale with more capacity:
+Vector search will support binary vector types and other vector search features, helping customers improve storage efficiency.
+Returning more relevant results with enhancements to
+vector
+and hybrid search
+. These new capabilities for vector and hybrid search, including vector weighting, score threshold control and allowing maximum text recall size, will give customers more options and flexibility to improve the accuracy of their responses.
+New seamless data and processing integrations
+with updates to
+integrated vectorization,
+now with built-in image vectorization via Microsoft Azure AI Vision, the latest Microsoft Azure OpenAI Service embedding models, and additional models available in Microsoft Azure AI Studio model catalog. Customers will be able to easily process, vectorize and search images natively, not just text embeddings, in Azure AI Search.
+New
+platform integration with Azure AI Search’s
+OneLake connector for files
+. Organizations will be able to directly connect their data in Microsoft Fabric to Azure AI Search with the new integration with OneLake, expanding the range of data sources that can be indexed and searched.
+Additional resources:
+Blog:
+Announcing cost-effective RAG at scale with Azure AI Search
+Blog:
+Azure AI Search’s new hybrid and vector search updates to boost GenAI app performance
+Blog:
+Azure AI Search now supports AI Vision multimodal and AI Studio embedding models
+Breakout:
+Advanced RAG with Azure AI Search
+Breakout:
+Building AI applications that leverage your data in object storage
+Breakout:
+RAG at scale with Azure AI Search
+Demo:
+Revolutionizing search and retrieval with Azure AI Search
+1.1.4. Azure AI Studio lets developers responsibly build and deploy custom copilots
+Microsoft
+Azure AI Studio
+, now generally available, is a key component of the Microsoft Copilot Stack. The pro-code platform empowers responsible generative AI development, including the development of copilots, to support complex apps and tasks like content generation, data analysis, project management, automation of routine tasks and more.
+The seamless dual development approach includes a friendly user interface (UI) and code-first capabilities, which enable developers to choose the most accessible workflow for their projects. Developers can use Azure AI Studio to explore the latest AI tools, orchestrate multiple interoperating APIs and models, ground models on their protected data, test and evaluate their AI innovations for performance and safety, and deploy at scale and with continuous monitoring in production.
+Other features in Azure AI Studio include:
+Code-first development experiences
+with Azure Developer CLI (azd) and AI Toolkit for Microsoft Visual Studio Code. AI integration with azd will enable developers to create resources in copilot sample repositories and facilitate large language model operations (LLMOps) as part of continuous integration/continuous delivery (CI/CD) solutions to accelerate code-to-cloud workflows. Integration with the AI Toolkit for Visual Studio Code will enable developers to use local and cloud compute to fine-tune models for deploying to Azure or the edge. These updates are in preview.
+Access to the latest foundation models
+from leading innovators. Models as a service (MaaS), coming soon, will allow developers to build generative AI apps using pay-as-you-go inference APIs and hosted fine-tuning, eliminating the need to host models in dedicated virtual machines (VMs). Models from Nixtla and Core42 JAIS are available as MaaS in preview. Models from AI21, Bria AI, Gretel Labs, NTT DATA, Stability AI, as well as Cohere Rerank are coming soon in preview and will simplify app integration and fine-tuning without the need to manage the underlying GPU infrastructure
+.
+Additionally, users can now seamlessly utilize MaaS models via Arize and ClearML to create generative AI apps with preferred dev tools.
+Comprehensive AI toolchain
+and app services, including seamless data integration, prompt orchestration and system evaluation to support the AI development lifecycle.
+Prompt flow
+will support workflow orchestration for multimodal models (in preview) and MaaS (in preview), including the use of images as inputs and outputs in conversations and models, such as Llama 3, Mistral Large and Cohere Command R+.
+Tracing and debugging
+, in preview, will enhance developers’ insights into AI workflows, simplify comparisons across versions and facilitate the debugging process.
+Monitoring for generative AI apps
+, in preview, will enable organizations to monitor key token usage, quality and operational metrics in production. Users can visualize trends and receive timely alerts to inform continuous improvements.
+Additional resources
+:
+Blog:
+Shaping tomorrow: Developing and deploying generative AI apps responsibly with Azure AI Studio
+Breakout:
+Build your own copilots, agents, and genAI apps with Azure AI Studio
+Breakout:
+Operationalize AI responsibly with Azure AI Studio
+Breakout:
+Code-First LLMOps from prototype to production with GenAI tools
+Breakout:
+Unlock the potential of foundation models with MaaS
+Breakout:
+Building copilots – key lessons and best practices
+Breakout:
+Integrating Azure AI and Microsoft Fabric for Next-Gen AI solutions
+Demo:
+Evaluate, monitor, and optimize LLM app performance in Azure AI Studio
+1.1.5. Azure OpenAI Service features key AI advancements
+Key feature updates in Microsoft Azure OpenAI Service showcase the commitment to serving customers with major generative AI advancements. These updates are poised to transform the AI landscape, offering more personalized, efficient and flexible AI apps across a vast array of business scenarios and include:
+OpenAI’s latest flagship model on Azure AI,
+GPT-4o
+, is now generally available in Azure AI Studio and as an API.
+Fine-tuning GPT-4
+allows for unparalleled customization of AI models, ensuring outputs are closely aligned with an organization’s brand voice and specific needs, thereby revolutionizing customer service, content creation and more. This update is now in preview.
+Assistants API
+paves the way for the creation of advanced virtual assistants and chatbots that enhance user interactions with their nuanced understanding and responsiveness. This update is now generally available.
+In addition,
+message analysis for WhatsApp
+, now in preview through Azure OpenAI Service via Azure Communication Services, will enable businesses to extract meaningful insights from WhatsApp messages. This feature will leverage language detection, translation, sentiment analysis, key phrase extraction and intent recognition to enhance the “user to business” communication flow. This capability signifies a pivotal step toward harnessing the power of conversational data across various channels, starting with WhatsApp, to improve customer engagement and journey understanding.
+Additional resources
+:
+Email:
+Contact the Microsoft Media and Analyst Events Team for more information
+Breakout:
+Enhance Your Copilots and GenAI Apps with Azure AI Assistants
+Breakout:
+TomTom brings AI-powered, talking cars to life with Azure
+Breakout:
+Multimodal use cases with GPT and Azure AI Vision
+Demo:
+Video prompting with Azure AI Vision and GPT-4 Turbo with Vision
+Demo:
+Build copilot experiences with your data on Azure OpenAI Service
+1.1.6. Khan Academy and Microsoft announce partnership
+Khan Academy and Microsoft are announcing a multifaceted partnership to turn the transformative potential of AI in education into reality. As part of the partnership:
+Microsoft is enabling Khan Academy to provide free access to Khanmigo for Teachers for all US K-12 educators. Khanmigo for Teachers is an AI-powered teaching assistant that frees up teachers’ time so they can focus on what matters most — engaging with and supporting their students. Microsoft is donating access to Azure AI-optimized infrastructure to increase the availability of Khanmigo for Teachers, which will now be powered by Microsoft Azure OpenAI Service.
+Khan Academy is collaborating with Microsoft to explore opportunities to improve math tutoring in an affordable, scalable and adaptable manner with a new version of Phi-3, a family of small language models (SLMs) developed by Microsoft. Khan Academy will give Microsoft access to explanatory educational content, such as math problems and step-by-step answers, as well as ongoing feedback and benchmarking data to evaluate performance. None of Khan Academy’s user data will be used to train the models.
+Also, Microsoft and Khan Academy are collaborating to bring high-quality educational content to more learners. As a start, the partnership includes the addition of more Khan Academy content into Microsoft Copilot and Microsoft Teams for Education.
+Additional resources
+:
+Blog:
+Khan Academy and Microsoft partner to expand access to AI tools that personalize teaching and help make learning fun
+Blog:
+Enhancing the future of education with Khan Academy
+Keynote:
+Microsoft Build opening keynote
+Download visual assets as seen on Microsoft Source
+1.1.7. Microsoft adds multimodal Phi-3 model Phi-3-vision
+Phi-3-vision
+, now in preview, is a new multimodal model in the Phi-3 family of AI small language models (SLMs), developed by Microsoft. Phi-3 models are powerful, cost-effective and optimized for personal devices. Sized at 4.2 billion parameters, Phi-3-vision supports general visual reasoning tasks as well as chart, graph and table reasoning. The model offers the ability to input images and text and to output text responses. For example, users can ask questions about a chart or ask an open-ended question about specific images. Additionally, Phi-3-mini and Phi-3-medium are now generally available as part of Microsoft Azure AI’s model as a service (MaaS) offering. Phi-3-small is also now available.
+Additional resources
+:
+Blog:
+New models added to the Phi-3 family, available on Microsoft Azure
+1.1.8. Safeguard copilots with new Azure AI Content Safety capabilities
+New features for Microsoft Azure AI Content Safety underscore Azure AI’s commitment to advancing responsible AI practices and equipping customers with advanced safeguards to protect their AI apps.
+Key enhancements will include the introduction of
+Custom Categories
+, coming soon, empowering users to create custom filters for generative AI apps tailored to specific content filtering needs or responsible AI policies, thereby providing a more precise and relevant content safety approach across diverse platforms. Additionally, Custom Categories will provide options for standard or rapid deployment, allowing users to quickly address incidents and emerging threats by deploying new filters in less than an hour.
+The launch of
+Prompt Shields and Groundedness Detection
+, in preview, in Microsoft Azure OpenAI Service and AI Studio as content filters will showcase Azure AI’s dedication to fortifying safety for large language models (LLMs). These features represent a pivotal development in mitigating both indirect and jailbreak prompt injection attacks and detecting when LLMs produce ungrounded or hallucinated materials.
+Additional resources:
+Blog:
+From code to production: New ways Azure helps you build transformational AI experiences
+Breakout:
+Safeguard your copilot with Azure AI
+Breakout:
+Operationalize AI responsibly with Azure AI Studio
+Demo:
+Safeguard user and AI-generated content with Azure AI Content Safety
+1.1.9. Speech analytics, video dubbing in preview in Azure AI Speech
+Microsoft Azure AI Speech has several new features that will help developers build high-quality, voice-enabled apps. This service is gated. These updates are now in preview and include:
+Speech analytics:
+A new service that will automate the end-to-end workflow for enterprises looking to extract insights from audio and video data. The service integrates transcription, summarization, speech recognition, speaker diarization, sentiment analysis and more. Speech analytics will help unlock insights from audio/video data, such as customer feedback, call center recordings, podcasts, interviews and more.
+Video dubbing:
+A new service that will help developers translate video files into several supported languages to reach global audiences in high quality. Customers can use the service to upload one or a series of videos to translate and generate video content in other languages, automatically. The service will allow developers to build their own video-dubbing pipeline with a single click and deliver it at a relatively low cost.
+Additional resources
+:
+Blog:
+Announcing new multi-modal capabilities with Azure AI Speech
+Breakout:
+Speech + GPT creating a new era of multi-lingual genAI experiences
+Demo:
+Bring your copilots to life with a customized visual identity
+1.2. Azure Data
+1.2.1. Introducing Real-Time Intelligence in Microsoft Fabric
+The new
+Real-Time Intelligence
+within Microsoft Fabric will provide an end-to-end software as a service (SaaS) solution that will empower customers to act on high volume, time-sensitive and highly granular data in a proactive and timely fashion to make faster and more-informed business decisions. Real-Time Intelligence, now in preview, will empower user roles such as everyday analysts with simple low-code/no-code experiences, as well as pro developers with code-rich user interfaces.
+Features of Real-Time Intelligence will include:
+Real-Time hub
+, a single place to ingest, process and route events in Fabric as a central point for managing events from diverse sources across the organization. All events that flow through Real-Time hub will be easily transformed and routed to any Fabric data stores.
+Event streams
+that will provide out-of-the-box streaming connectors to cross cloud sources and content-based routing that helps remove the complexity of ingesting streaming data from external sources.
+Event house and real-time dashboards
+with improved data exploration to assist business users looking to gain insights from terabytes of streaming data without writing code.
+Data Activator
+that will integrate with the Real-Time hub, event streams, real-time dashboards and KQL query sets, to make it seamless to trigger on any patterns or changes in real-time data.
+AI-powered insights,
+now with an integrated Microsoft Copilot in Fabric experience for generating queries, in preview, and a one-click anomaly detection experience, allowing users to detect unknown conditions beyond human scale with high granularity in high-volume data, in private preview.
+Event-Driven Fabric
+will allow users to respond to system events that happen within Fabric and trigger Fabric actions, such as running data pipelines.
+Additional resources:
+Blog:
+Introducing Real-Time Intelligence in Microsoft Fabric
+Breakout:
+Ingest, analyze and act in real time with Microsoft Fabric
+Breakout:
+Microsoft Fabric: What’s new and what’s next
+1.2.2. New AI capabilities in Azure Database for PostgreSQL
+Microsoft Azure Database for PostgreSQL offers advanced AI capabilities that customers can access in different ways based on their needs, either calling into Microsoft Azure OpenAI Service for the most advanced AI models or leveraging in-database AI models if customers want to keep their data within the database instance for privacy and compliance reasons.
+New capabilities include:
+Azure Database for PostgreSQL Azure AI extension:
+The PostgreSQL extension for Azure AI allows developers to leverage large language models (LLMs) in Azure AI and build rich PostgreSQL generative AI apps. It simplifies building intelligent apps on Azure Database for PostgreSQL. The extension, now generally available, enables:
+Calling into
+Azure OpenAI Service
+to generate LLM-based vector embeddings that allow efficient similarity searches. This is particularly powerful for scenarios like recommendation systems and natural language, context-sensitive interactions with your data.
+Calling into
+Azure AI Language
+for a wide range of scenarios, such as sentiment analysis, language detection, entity recognition and more.
+Real-time predictions
+to invoke pre-trained machine learning models hosted on Azure Machine Learning online endpoints that enable scenarios such as fraud detection in banking, product recommendations in retail and more.
+Real-time text translation
+using Azure AI Translator to translate text from right within SQL, which facilitates building intelligent multilingual apps on Azure Database for PostgreSQL.
+Azure Database for PostgreSQL in-database embedding generation:
+These embeddings enable AI models to understand relationships and similarities between data, making them key to generative AI workloads. The in-database embedding generation capability, in preview, will bring text embedding models within Azure Database for PostgreSQL, so that embeddings can be generated within the database without calling into Azure OpenAI Service. It helps customers:
+Reduce embedding creation time to single-digit millisecond latency.
+Leverage embedding models at a predictable cost.
+Keep data compliant for highly confidential or private workloads.
+Additional resources
+:
+Blog:
+Introducing in-database embedding generation for Azure Database for PostgreSQL
+Breakout:
+Transform applications with AI and Azure Database for PostgreSQL
+Demo:
+Build an AI-powered app with PostgreSQL within 10 mins
+Download visual assets
+1.2.3. New capabilities and updates in Microsoft Fabric
+Microsoft Fabric, the unified data platform for analytics in the era of AI, is a powerful solution designed to elevate apps, whether a user is a developer, part of an organization or an independent software vendor (ISV). Updates to Fabric include:
+Fabric Workload Development Kit:
+When building an app, it must be flexible, customizable and efficient. Fabric Workload Development Kit will make this possible by enabling ISVs and developers to extend apps within Fabric, creating a unified user experience.This feature is now in preview.
+Fabric Data Sharing
+feature
+: Enables real-time data sharing across users and apps. The shortcut feature API allows seamless access to data stored in external sources to perform analytics without the traditional heavy integration tax. The new Automation feature now streamlines repetitive tasks resulting in less manual work, fewer errors and more time to focus on the growth of the business. These features are now in preview.
+GraphQL API
+and
+user data functions in Fabric
+: GraphQL API in Fabric is a savvy personal assistant for data. It’s a RESTful API that will let developers access data from multiple sources within Fabric, using a single query. User data functions will enhance data processing efficiency, enabling data-centric experiences and apps using Fabric data sources like lakehouses, data warehouses and mirrored databases using native code ability, custom logic and seamless integration.These features are now in preview.
+AI skill
+s in Fabric:
+AI skills in Fabric is designed to weave generative AI into data specific work happening in Fabric. With this feature, analysts, creators, developers and even those with minimal technical expertise will be empowered to build intuitive AI experiences with data to unlock insights. Users will be able to ask questions and receive insights as if they were asking an expert colleague while honoring user security permissions.This feature is now in preview.
+Copilot in Fabric:
+Microsoft is infusing Fabric with Microsoft Azure OpenAI Service at every layer to help customers unlock the full potential of their data to find insights. Customers can use conversational language to create dataflows and data pipelines, generate code and entire functions, build machine learning models or visualize results. Copilot in Fabric is generally available in Power BI and available in preview in the other Fabric workloads.
+Additional resources:
+Blog:
+Unlock real-time insights with AI-powered analytics in Microsoft Fabric
+Breakout:
+Extend your analytics applications with Microsoft Fabric
+Breakout:
+Microsoft Fabric: What’s new and what’s next
+Breakout:
+AI-enhanced database and analytics performance with Microsoft Copilot
+Breakout:
+Integrating Azure AI and Microsoft Fabric for Next-Gen AI Solutions
+Breakout:
+Unify your data with OneLake and Microsoft Fabric
+Demo:
+Copilot experiences for Data Professionals
+Demo:
+Introducing the Microsoft Fabric Workload Development Kit
+1.2.4. New capabilities in Azure Cosmos DB
+Microsoft Azure Cosmos DB, the database designed for AI that allows creators to build responsive and intelligent apps with real-time data ingested and processed at any scale, has several key updates and new features that include:
+Built-in vector database capabilities
+: Azure Cosmos DB for NoSQL will feature built-in vector indexing and vector similarity search, enabling data and vectors to be stored together and to stay in sync. This will eliminate the need to use and maintain a separate vector database. Powered by DiskANN, available in June, Azure Cosmos DB for NoSQL will provide highly performant and highly accurate vector search at any scale. This feature is now in preview.
+Serverless to provisioned account migration:
+Users will be able to transition their serverless Azure Cosmos DB accounts to provisioned capacity mode. With this new feature, transition can be accomplished seamlessly through the Azure portal or Azure command-line interface (CLI). During this migration process, the account will undergo changes in-place and users will retain full access to Azure Cosmos DB containers for data read and write operations.This feature is now in preview.
+Cross-region disaster recovery:
+With disaster recovery in vCore-based Azure Cosmos DB for MongoDB a cluster replica can be created in another region. This cluster replica will be continuously updated with the data written in the primary region. In a rare case of outage in the primary region and primary cluster unavailability, this replica can be promoted to become the new read-write cluster in another region. Connection string is preserved after such a promotion, so that apps can continue to read and write to the database in another region using the same connection string. This feature is now in preview.
+Azure Cosmos DB Vercel integration
+: Developers building apps using Vercel can now connect easily to an existing Azure Cosmos DB database or create new Azure Try Cosmos DB accounts on the fly and integrate them to their Vercel projects. This integration improves productivity by creating apps easily with a backend database already configured. This also helps developers onboard to Azure Cosmos DB faster. This feature is now generally available.
+Go SDK for Azure Cosmos DB:
+The Go SDK allows customers to connect to an Azure Cosmos DB for NoSQL account and perform operations on databases, containers and items. This release brings critical Azure Cosmos DB features for multi-region support and high availability to Go, such as the ability to set preferred regions, cross-region retries and improved request diagnostics. This feature is now generally available.
+Additional resources
+:
+Blog:
+Introducing vector database capabilities in Azure Cosmos DB for NoSQL (Public Preview)
+Blog:
+Simplifying your Azure Cosmos DB migration: From Serverless to Provisioned throughput (preview)
+Blog:
+Cross-region replication in vCore-based Azure Cosmos DB for MongoDB
+Blog:
+Announcing General Availability of Azure Cosmos DB Integration with Vercel
+Blog:
+Announcing the stable release of the Azure Cosmos DB client library for Go
+Breakout:
+TomTom brings AI-powered, talking cars to life with Azure
+Breakout:
+Design and build multi-tenant SaaS apps at scale with Azure Cosmos DB
+Demo:
+Build scalable chat history and conversational memory into LLM apps
+1.2.5. Snowflake Apache Iceberg shortcuts in Fabric
+Apache Iceberg is an open-source native table format. With Iceberg shortcuts to OneLake, users will be able to unify data across domains, clouds and accounts by creating a single virtual data lake for the entire enterprise. Through
+Iceberg shortcuts
+, now in preview, Microsoft Fabric customers will be able to connect Iceberg tables in Snowflake to Fabric quickly, easily and without compromising performance. Fabric’s unified, multicloud data lake, OneLake, is automatically wired into every Fabric workload and designed to help simplify data management and reduce data duplication. OneLake shortcuts allow customers to virtualize data into OneLake with multiple sources — all without duplication, movement or changes to metadata or ownership.
+Additional resources:
+Blog:
+Unlock real-time insights with AI-powered analytics in Microsoft Fabric
+1.3. Azure Infrastructure
+1.3.1. Azure Compute Fleet now in preview
+Microsoft Azure Compute Fleet
+is a new service, in preview, that will simplify the provisioning of Azure compute capacity across different virtual machine (VM) types, availability zones and pricing models to help customers achieve the scale, performance and cost they require.
+Azure Compute Fleet will dramatically simplify how Azure compute capacity is currently provisioned and managed. Azure customers can now quickly deploy larger workloads and maintain their desired Spot VMs target capacity more efficiently and cost-effectively through new programmatic and automated capabilities. Azure Compute Fleet will automatically find an optimal mix of VMs based on customer requirements while matching them to the available compute capacity and prioritizing speed of deployment, cost of operation or a balance of both.
+With Azure Compute Fleet, customers will be able to meet their compute capacity requirements by seamlessly deploying and managing up to 10,000 VMs with a single API call. Additionally, this new service will scale up Spot VMs more efficiently with potential cost savings.
+Finally, Azure Compute Fleet will offer dozens of options for automatic and programmatic control of VM groups, to respond to changing variables such as pricing, capacity availability and Spot VM evictions. Without Azure Compute Fleet, managing these scenarios would be manual and time-consuming. With Azure Compute Fleet, the deployment, management and cost optimization of large VM fleets can be automated and simplified, resulting in increased operational efficiencies.
+Additional resources:
+Blog:
+Announcing the Public Preview of Azure Compute Fleet
+Breakout:
+Building applications at hyper scale with the latest Azure innovations
+1.3.2. Azure Migrate and Azure Container Storage updates
+Microsoft Azure Migrate and Azure Container Storage have several new features to help users modernize and scale their infrastructure quickly and securely and include:
+Azure Hybrid Benefits:
+Azure Migrate will have support for Azure Hybrid Benefits during assessments and business cases for Linux workloads. This capability will provide higher savings for Linux workloads moving to Azure through Azure Migrate. This feature is in preview.
+Azure Container Storage will be generally available in the next month:
+Azure Container Storage is Microsoft’s fully managed, software-defined storage solution built for and tightly integrated with Kubernetes. Azure Container Storage will provide simple and consistent volume management for operators and developers using Azure Kubernetes Service (AKS). Users will be able to choose from different storage options, including Azure Disks, Ephemeral Disks and Azure Elastic SAN based on their workload needs.
+Azure Files updates are in preview for
+Azure Container Storage:
+Vaulted backups will enable customers to protect business-critical data stored in Azure Files against data loss scenarios; soft delete support for NFS file shares will allow customers to easily recover data lost due to unintended deletion by an app or admin; Geo-redundancy for large file shares will improve capacity and performance for standard server message block file shares; and metadata caching for premier SMB file shares will help customers experience lower latency for file workloads running on Windows/Linux clients.
+Additional resources:
+Blog:
+Azure Migrate – Build 2024 Announcements
+Demo:
+Getting more out of your containerized workloads for less
+1.3.3. New Azure virtual machine series optimized for AI and cloud-native workloads
+A new Cobalt 100 Arm-based virtual machine (VM), based on Microsoft’s custom silicon series announced in November 2023, is now in preview, and the new Azure ND MI300X v5 VM is now generally available.
+Cobalt 100 Arm-based VMs
+are the first generation of VMs to feature Microsoft’s new Cobalt 100 processor, custom-built on an Arm architecture, optimized for efficiency and performance when running general-purpose and cloud-native workloads. These VMs will offer users both performance consistency and linear performance scaling with workloads like web apps, microservices and open-source databases.Users can expect up to 40% improved performance compared to the previous generation of Arm-based VMs on Azure and availability for use in Azure Kubernetes Service (AKS) node pools.
+The
+ND MI300X v5 series
+is optimized for demanding AI and high-performance computing workloads. It features an AMD Instinct MI300X AI accelerator, providing each VM with 1.5 TB of high bandwidth memory and 5.2 TB/s of memory bandwidth. These VMs are also connected by NVIDIA Quantum-2 CX7 InfiniBand, offering 3.2 TB/s of scale-out bandwidth per VM, which allows scaling up to thousands of VMs and tens of thousands of GPUs.
+Additional resources:
+Blog:
+Announcing the preview of new Azure VMs based on the Azure Cobalt 100 processor
+Blog:
+Introducing the new Azure AI infrastructure VM series ND MI300X v5
+Breakout:
+Building applications at hyper scale with the latest Azure innovations
+1.4. Developer Community
+1.4.1. Microsoft for Startups Founders Hub gains AI capabilities
+A feature release to
+Microsoft for Startups Founders Hub
+will empower startup founders with cutting-edge AI capabilities. Through this initiative, members will gain exclusive access to a curated selection of customizable templates designed to expedite the development and deployment of generative AI solutions. With just a few clicks, founders will be able to leverage these templates to build and deploy AI solutions tailored to their specific startup needs in mere minutes.
+Founders Hub will offer four customizable AI templates, each selected to address common startup use cases. These AI templates, now in preview, include:
+Launch OpenAI GPT in an app.
+Launch OpenAI GPT in an app with data (Python).
+Launch OpenAI GPT in an app with data (JavaScript).
+Launch an OpenAI GPT plugin.
+To bring an added layer of support to startup founders, Microsoft created a specialized copilot within the Founders Hub experience. Microsoft Copilot in Founders Hub will serve as a dedicated AI assistant, providing round-the-clock guidance and assistance throughout the development process. With these powerful tools at their disposal, founders can streamline their workflow, allowing them to focus more on building and scaling their businesses effectively. Copilot in Founders Hub is in private preview in select regions.
+Additional resources
+:
+Blog:
+Announcing New Tools to Streamline Startup AI Development
+Breakout:
+Transforming the future of startups with Microsoft AI
+1.4.2. New AI features for Microsoft Learn now available
+New Applied Skills credentials
+that support developers who build AI and cloud solutions include:
+Accelerated app development using GitHub Copilot.
+Developing AI agents using Microsoft Azure OpenAI Service and Semantic Kernel.
+Automated Microsoft Azure Load Testing using GitHub.
+The current portfolio of Microsoft credentials, which has more than 20 Microsoft Applied Skills and 50 Microsoft Certifications in solution areas like Data and AI, Infrastructure, Digital and App innovation, Business apps, Modern Work and Security, is now enhanced by these new credentials. Certifications offer the flexibility to grow the skills needed for critical roles and Applied Skills offer the ability to expand the skills needed for key business scenarios. Together they bring verifiable skill sets aligned to AI and cloud job roles and projects. Explore all
+AI Microsoft Credentials
+.
+Additionally,
+new
+plans on Microsoft Learn
+for AI skill-building include:
+Using AI in everyday work: GitHub Copilot.
+Create and modernize apps with Microsoft Azure OpenAI Service.
+Microsoft Copilot for Microsoft 365 for executives.
+Master the basics of Azure: AI Fundamentals.
+Plans on Microsoft Learn are sets of curated content that can have documentation, code samples, modules, learning paths and more. Plans have built-in goals, sharing options, automated notifications and reports to help individuals and teams reach their learning objectives. These AI plans can be found on the
+AI learning hub on Microsoft Learn
+.
+These updates are now generally available.
+Additional resources
+:
+Blog:
+Live at Build: Microsoft Learn releases new AI skill-building resources
+Demo:
+Navigating Microsoft Applied Skills credentials
+Demo:
+Power your AI Transformation with Microsoft Learn
+Demo:
+Get Plans for your journey with Microsoft Learn
+1.5. Developer Tools & DevOps
+1.5.1. .NET updates for developer community
+.NET is Microsoft’s free, open-source, cross-platform framework for building modern apps and powerful cloud services. To continue to provide an outlet for developers to build great things, several key updates have been made and include:
+.NET Aspire:
+.NET Aspire is a new cloud-native stack, comprising a suite of tools and libraries that make building cloud-native apps easier and developers more productive. It lets developers focus on the logic that matters and the tools they know while taking away the complexities of setup, configuration, observability and diagnostics. With .NET Aspire, developers can quickly build observable and reliable cloud-native apps, using preconfigured common resiliency patterns and a built-in dev-time dashboard to pinpoint what is happening in a complex environment of multiple services all working together. This update is generally available.
+.NET 9 Preview 4:
+This update will bring a suite of enhancements geared toward optimizing cloud-native app development and overall performance to enhance .NET support to build generative AI apps. With several optimizations and enhancements across the runtime, libraries, SDK, ASP.NET Core, .NET MAUI, C#13, Entity Framework Core, .NET Aspire and more, this update will preview some of the capabilities expected in the final version of .NET 9. This update is in preview.
+MongoDB Provider for Entity Framework Core (EF Core):
+The MongoDB Provider for EF Core bridges the gap between MongoDB and Entity Framework Core, enabling .NET developers to leverage the full spectrum of MongoDB’s capabilities within the familiar EF environment. With this integration, .NET developers can now more easily incorporate MongoDB’s powerful features into their EF-based apps, further enhancing the robustness and scalability of their solutions. This update is generally available.
+Additional resources
+:
+Blog:
+General Availability of .NET Aspire: Simplifying .NET Cloud-Native Development
+Breakout:
+Demystify cloud-native development with .NET Aspire
+Breakout:
+.NET Aspire development on any OS with the Visual Studio family
+Breakout:
+Infusing your .NET Apps with AI: Practical Tools and Techniques
+Breakout:
+What’s new in C# 13
+1.5.2. AI Toolkit for Visual Studio Code now in preview
+AI Toolkit for Visual Studio Code
+, now in preview, integrates AI development tools and models to help AI engineers develop and deploy their intelligent apps. Using the AI Toolkit extension, AI engineers will be able to:
+Acquire and run
+various language models.
+Use local and cloud compute to
+optimize and fine-tune
+models for app-specific use cases.
+Efficiently
+deploy
+their models to Microsoft Azure AI Studio, or other platforms, using container images.
+Additional resources
+:
+Blog:
+Announcing the AI Toolkit for Visual Studio Code
+Keynote:
+Next generation AI for developers with the Microsoft Cloud
+Breakout:
+Maximize joy, minimize toil with great developer experiences
+Breakout:
+Scott and Mark learn to Copilot
+Breakout:
+Code-First LLMOps from prototype to production with GenAI tools
+Breakout:
+Create Generative AI experiences using Phi
+1.5.3. Azure API Center and generative AI capabilities in Azure API Management now available
+Microsoft Azure API Center
+, now generally available, provides a centralized solution to manage the challenges of API sprawl, which is exacerbated by the rapid proliferation of APIs and AI solutions. The Azure API Center offers a unified inventory for seamless discovery, consumption and governance of APIs, regardless of their type, lifecycle stage or deployment location. This enables organizations to maintain a complete and current API inventory, streamline governance and accelerate consumption by simplifying discovery.
+Additionally, Azure API Management has introduced new capabilities to enhance the scalability and security of generative AI deployments. These include the Microsoft Azure OpenAI Service token limit policy for fair usage and optimized resource allocation, one-click import of Azure OpenAI Service endpoints as APIs, a Load Balancer for efficient traffic distribution and a Circuit breaker to protect backend services.
+Other updates, now generally available, include first-class support for OData API type, allowing easier publication and security of OData APIs, and full support for gRPC API type in self-hosted gateways, facilitating the management of gRPC services as APIs.
+Additional resources
+:
+Blog:
+Azure API Center: Your Comprehensive API Inventory and Governance Solution
+Blog:
+Introducing GenAI Gateway Capabilities in Azure API Management
+Breakout:
+Unleash the Potential of APIs with Azure API Management
+1.5.4. Azure App Service boosts performance and security for web app creation
+Microsoft Azure App Service is a cloud platform to quickly build, deploy and run web apps, APIs and other components. These capabilities are now in preview:
+Sidecar patterns
+is a way to add extra features to the main app, such as logging, monitoring and caching, without changing the app code. Users will be able to run these features alongside the app and it is supported for both source code and container-based deployments.
+WebJobs
+will be integrated with Azure App Service, which means they will share the same compute resources as the web app to help save costs and ensure consistent performance. WebJobs are background tasks that run on the same server as the web app and can perform various functions, such as sending emails, executing bash scripts and running scheduled jobs.
+GitHub Copilot skills for Azure Migrate
+will enable users to ask questions like, “Can I migrate this app to Azure?” or “What changes do I need to make to this code?” to get answers and recommendations from Azure Migrate. GitHub Copilot licenses are sold separately.
+These capabilities are now generally available:
+Automatic scaling
+continuously adjusts the number of servers that run apps based on a combination of demand and server utilization, without any code or complex scaling configurations. This helps users handle dynamically changing site traffic without over-provisioning or under-provisioning the app’s server resources.
+Availability zones
+are isolated locations within an Azure region that provide high availability and fault tolerance. Enabling availability zones lets users take advantage of the increased service level agreement (SLA) of 99.99%. For more information, reference the
+SLA for App Service
+.
+TLS 1.3 encryption
+, the latest version of the protocol that secures communication between apps and the clients, offers faster and more secure connections, as well as better compatibility with modern browsers and devices.
+Additional resources
+:
+Blog:
+Discover How App Modernization on Azure Enables Intelligent App Innovation
+Breakout:
+Using AI with App Service to deploy differentiated web apps and APIs
+Breakout:
+App innovation in the AI era: cost, benefits, and challenges
+Demo:
+Conversational app and code assessment in Azure Migrate
+1.5.5. Azure Container Apps launches dynamic sessions
+Microsoft Azure Container Apps will include
+dynamic sessions, in preview,
+for AI app developers to instantly run large language model (LLM)-generated code or extend/customize software as a service (SaaS) apps in an on-demand, secure sandbox.
+Customers will be able to mitigate risks to their security posture, leverage serverless scale for their apps and save months of development work, ongoing configurations and management of compute resources that reduce their cost overhead. Dynamic sessions will provide a fast, sandboxed, ephemeral compute suitable for running untrusted code at scale.
+Additional new features, now in preview, include:
+Support for Java:
+Java developers will be able to monitor the performance and health of apps with Java metrics such as garbage collection and memory usage.
+Microsoft .NET Aspire dashboard:
+With dashboard support for .NET Aspire in Azure Container Apps, developers will be able to access live data about projects and containers in the cloud to evaluate the performance of .NET cloud-native apps and debug errors.
+Additional resources
+:
+Blog:
+What’s new in Azure Container Apps at Build’24
+Breakout:
+Serverless architectures: Effortless Intelligent Apps at extreme scale
+Demo:
+Deploy your .NET microservices to the cloud at lightning speed
+1.5.6. Azure Functions launches Flex Consumption Plan, extensions
+Microsoft Azure Functions is launching several new features to provide more flexibility and extensibility to customers in this era of AI.
+Features now in preview include:
+A
+Flex Consumption plan
+that will give customers more flexibility and customization without compromising on available features to run serverless apps.
+Extension for
+Microsoft
+Azure OpenAI
+Service
+that will enable customers to easily infuse AI in their apps. Customers will be able to use this extension to build new AI-led apps like retrieval-augmented generation, text completion and chat assistant.
+Visual Studio Code for the Web
+will provide a browser-based developer experience to make it easier to get started with Azure Functions. This feature is available for Python, Node and PowerShell apps in the Flex Consumption hosting plan.
+Features now generally available include:
+Azure Functions on Azure Container Apps
+lets developers use the Azure Container Apps environment to deploy multitype services to a cloud-native solution designed for centralized management and serverless scale.
+Dapr extension for Azure Functions
+enables developers to use Dapr’s powerful cloud native building block APIs and a large array of ecosystem components in the native and friendly Azure Functions triggers and bindings programming model. The extension is available to run on Azure Kubernetes Service and Azure Container Apps.
+Additional resources
+:
+Blog:
+Azure Functions – Microsoft build 2024 update
+Breakout:
+Serverless architectures: Effortless Intelligent Apps at extreme scale
+Lab:
+Build and deploy serverless apps with Azure Functions and Azure AI
+1.5.7. Azure Kubernetes Service Automatic makes Kubernetes adoption easy
+Azure Kubernetes Service (AKS) is launching
+Automatic
+, in preview, to make Kubernetes adoption easier for developers, DevOps teams and platform engineers. It will automate AKS cluster setup and management, embedding best practice configurations, so that users are assured of security, performance and dependability for their apps. Automatic will provide access to the Kubernetes APIs, retaining the flexibility of Kubernetes that is important to many customers.
+Several new AKS features, in preview, that will improve security and ease of operation and include:
+Deployment safeguards
+enforcement
+option will apply policy best practices to AKS clusters and can automatically change resource settings to align with best practices.
+Azure Kubernetes Fleet Manager will enable
+intelligent workload placement
+by customizing and overriding cluster-specific resources.
+Kubernetes Event Driven Autoscaler (KEDA) in the Azure portal
+will streamline the creation and management of KEDA resources through the portal interface.
+Additionally,
+Automated deployments
+, now generally available, simplify the process of building and deploying container images to a cluster.
+Additional resources:
+Blog:
+AKS at Build: Enhancing security, reliability, and ease of use for developers and platform teams
+Breakout:
+TomTom brings AI-powered, talking cars to life with Azure
+Breakout:
+Build Modern Apps on K8S without being a Kubernetes expert
+Breakout:
+How H&M uses AKS and GitHub for platform engineering form with AKS
+Breakout:
+Building a connected vehicle and app experience with BMW and Azure
+Demo:
+Intelligent Workload Scheduling with Azure Kubernetes Fleet Manager
+Lab:
+Build and run intelligent apps with AKS and Azure OpenAI Service
+1.5.8. Azure Service Bus updates now in preview
+Microsoft Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics. Updates to Azure Service Bus will contribute to a more robust, efficient and resilient messaging system, which is essential for enterprises that rely on uninterrupted and secure communication for their operations. These updates, now in preview, include:
+Geo-disaster recovery
+will allow for a namespace to be replicated in another region or two to provide resilience against the loss of a region.
+Durable terminus
+will allow for a client to reconnect after the network disconnects between the client and service, keeping their entire message state, including message- and session-locks.
+Batch delete
+will allow customers to delete messages on the service side from an entity or the dead letter queue in batches of up to 4,000 messages.
+Peek by state
+will allow customers to peek at messages in specific states, such as Active and Scheduled.
+Additional resources
+:
+Blog:
+Announcing Batch delete in Service Bus- Public Preview
+1.5.9. Azure Static Web Apps features dedicated pricing plan
+To help customers deliver more advanced capabilities, Microsoft Azure Static Web Apps will offer a dedicated pricing plan, now in preview, that supports enterprise-grade features for enhanced networking and data storage. The dedicated plan for Azure Static Web Apps will utilize dedicated compute capacity and will enable:
+Network isolation
+to enhance security.
+Data residency
+to help customers comply with data management policies and requirements.
+Enhanced quotas
+to allow for more custom domains within an app service plan.
+“Always-on”
+functionality for Azure Static Web Apps managed functions, which provide built-in API endpoints to connect to backend services.
+Additional resources
+:
+Email:
+Contact the Microsoft Media and Analyst Events Team for more information
+1.5.10. Dev Box adds ready-to-code, enterprise management features
+Microsoft Dev Box is a Microsoft Azure service that gives developers self-service access to preconfigured, project-specific developer workstations. Dev Box has been updated with several new developer productivity and enterprise management capabilities. Developers can leverage greater flexibility through more customization options, while administrators gain improved visibility and control over resources.
+New ready-to-code features for developers include:
+Team customizations
+and
+images
+, in private preview, and
+project-based catalogs
+, in preview, will offer developer leads and platform engineers new ways to create customized development environments for their teams.
+Dev Box in Windows App
+, in preview, will offer an improved connection experience in the Windows App with quick access to Dev Box in the taskbar and the ability to seamlessly transition between Dev Box and Windows devices, whether on-premises or in the cloud.
+New enterprise management capabilities include:
+Dev Box connection telemetry
+, now generally available through Azure Monitor, provides telemetry data into performance and system events. This enhances observability and troubleshooting capabilities for admins.
+Hibernation on disconnect
+will let dev boxes hibernate if there is no active remote desktop protocol session, which will help organizations optimize costs. This feature is now in preview.
+Windows 11 Enterprise image can be published into Azure Marketplace for use with Dev Box
+. Developer tool vendors can now create and publish Dev Box-compatible custom images with third-party tools via the “Windows client for developers” image in the Azure Marketplace. This feature is now generally available.
+Dev boxes can now be deployed
+in Southeast Asia, South Africa North, Germany West Central, Italy North, Brazil South, Switzerland North and starting June 1 in Sweden Central, improving connectivity performance and latency for developers in these regions.
+Additional resources
+:
+Blog:
+Microsoft Dev Box is leveling up to support your development needs
+Breakout:
+Understanding cloud powered development environments
+Breakout:
+Level up your dev box, how devs at Microsoft are productive on Windows
+Demo:
+Use customization to personalize Dev Box for you and your team
+Demo:
+Microsoft Dev Box for Accessibility
+1.5.11. Expanding extensibility model to Pulumi in Azure Deployment Environments
+Microsoft Azure Deployment Environments will deliver a more seamless experience to customers, enabling them to leverage popular infrastructure as code (IaC) frameworks quickly and easily with its new extensibility model, and to perform or customize deployments based on their organizational needs. These capabilities will give development teams more control to customize environment templates for their team-specific needs and provide platform engineers with additional ways to build templates in their preferred IaC format.
+These updates include:
+Support for Pulumi
+: In addition to being able to use Arm, Bicep and Terraform, customers will be able to perform deployments using Pulumi, another popular IaC framework. Customers will be able to build their own container image by leveraging the published guidance, or directly leverage the sample container image published for Pulumi. This feature is in preview.
+Project-based catalogs
+: Platform engineers will be able to provide project-specific templates or enable dev teams to directly customize the templates used to self-serve app infrastructure. This feature is in preview.
+Quick-start template
+: Platform engineers can now deploy and configure Azure Deployment Environments with a single click deployment using the quick-start template. This feature is generally available.
+Additional resources
+:
+Blog:
+Boost dev team agility with customized, project-specific templates in Azure Deployment Environments
+Breakout:
+Maximize joy, minimize toil with great developer experiences
+Breakout:
+Build apps from the cloud with Microsoft Dev Box, Visual Studio & more
+Breakout:
+Deploy, test and run apps with Azure Deployment Environments
+Breakout:
+Platform Engineering: Creating Scalable and Resilient Systems
+1.5.12. Introducing GitHub Copilot extensions, featuring GitHub Copilot for Azure
+GitHub is introducing the first set of GitHub Copilot extensions, developed by Microsoft and third-party partners, in private preview. These additions allow developers and organizations to customize their GitHub Copilot experience with their preferred services like Azure, Docker, Sentry and more directly within GitHub Copilot Chat.
+GitHub Copilot for Azure, one of the extensions from Microsoft, enables developers to build, troubleshoot and deploy apps on Azure, showcasing how building in natural language with a broader range of capabilities can propel development velocity.
+Additional resources
+:
+Blog:
+Introducing GitHub Copilot Extensions: Unlocking unlimited possibilities with our ecosystem of partners
+Learn more about these updates
+.
+Breakout:
+Extending GitHub Copilot
+Breakout:
+Platform Engineering: Creating Scalable and Resilient Systems
+Breakout:
+Better together, build and deploy to Azure with GitHub
+Breakout:
+What’s new in GitHub Copilot and the Visual Studio family
+Demo:
+GitHub Copilot can do that!?
+Demo:
+Building on LLM’s – Lessons learned from creating GitHub Copilot
+Download visual assets
+1.5.13. New Azure Event Grid capabilities support IoT solutions, event sources
+Microsoft Azure Event Grid has new features that are tailored to customers who are looking for a pub-sub message broker that can enable Internet of Things (IoT) solutions using MQTT protocol and can help build event-driven apps. These capabilities enhance Event Grid’s MQTT broker capability, make it easier to transition to Event Grid namespaces for push and pull delivery of messages, and integrate new sources. Features now generally available include:
+Use the Last Will Testament feature
+, in compliance with MQTT v5 and MQTT v.3.1.1 specifications, so apps receive notifications when clients get disconnected, enabling management of downstream tasks to prevent performance degradation.
+Create data pipelines
+that utilize both Event Grid Basic resources and Event Grid Namespace Topics (supported in Event Grid Standard). This means customers can utilize Event Grid namespace capabilities, such as MQTT broker, without needing to reconstruct existing workflows.
+Support new event sources,
+such as Microsoft Entra ID and Microsoft Outlook, leveraging Event Grid’s support for the Microsoft Graph API. This means customers can use Event Grid for new use cases, like when a new employee is hired or a new email is received, to process that information and send to other apps for more action.
+Additional resources
+:
+Learn:
+Overview of the MQTT broker feature in Azure Event Grid
+1.5.14. New enhancements and integrations in Azure Load Testing
+Microsoft Azure Load Testing is adding new features that will make it easier for customers to run high-scale load tests, gain deeper insights into results and further optimize app performance. These updates include:
+Multiple-region load tests:
+Users can now simulate load from multiple regions and geographies simultaneously in a single test run to better mimic real-world traffic. This update is generally available.
+Locust support
+: Customers will be able to use Locust, a Python-based open-source load testing framework, to write code for test scripts, maintain scripts in a repo and enable better collaboration. This update will be in preview soon.
+Integration with Azure App Service
+: Customers can now run load tests from within the Azure portal experience for Azure App Service and easily configure test scenarios, without needing prior performance testing knowledge. This update is generally available.
+Integration with Azure Functions
+: Customers will be able to use a new cost-optimization feature in Azure Functions through integration with Azure Load Testing, enabling them to optimize cost versus performance based on their requirements. Azure Functions Flex Consumption customers will be able to choose the instance size and HTTP concurrency configuration, simulate load and measure the performance of their app. This feature will be in preview soon.
+Additional resources:
+Blog:
+Optimize Azure Functions for Performance and Costs using Azure Load Testing
+Breakout:
+Leverage Azure Testing Services to build high quality applications
+1.5.15. Spring Batch support for Azure Spring Apps Enterprise in preview
+Microsoft Azure Spring Apps provides a fully managed service that allows developers and businesses to build Spring apps faster, without worrying about maintaining the infrastructure.
+Spring Batch for Azure Spring Apps Enterprise
+, now in preview, will enable users to run Spring Batch apps cost efficiently in the cloud. Spring Batch is a robust framework for handling large-scale data processing, offering essential features like logging, tracing, transaction management, job processing statistics and more.
+This preview will unlock several benefits in Azure Spring Apps Enterprise, including:
+Cost-effective cloud execution
+where customers pay only for compute resources during the actual execution period.
+Minimal code modifications
+to allow customers to focus on business logic.
+Simplified development process
+with ready-to-use components.
+A fully managed Application Configuration Service
+to manage configuration scenarios.
+A fully managed Service Registry
+for discovering services among apps for horizontal traffic.
+Additional resources
+:
+Blog:
+Discover How App Modernization on Azure Enables Intelligent App Innovation
+Pre-recorded:
+Scaling Spring Batch in the Cloud
+1.5.16. Updates to Azure Logic Apps
+Microsoft Azure Logic Apps is a cloud platform where users can create and run automated workflows with little to no code. Updates to the platform include:
+An enhanced developer experience:
+Improved onboarding experience in Microsoft Visual Studio Code:
+A simplified extension installation experience and improvements on project start and debugging are now generally available.
+Logic Apps Standard deployment scripting tools
+in Visual Studio Code:
+This feature will simplify the process of setting up a continuous integration/continuous delivery (CI/CD) process for Logic Apps Standard by providing support in the tooling to generalize common metadata files and automate the creation of infrastructure scripts to streamline the task of preparing code for automated deployments. This feature is in preview.
+Support for Zero Downtime deployment scenarios:
+This will enable Zero Downtime deployment scenarios for Logic Apps Standard by providing support for deployment slots in the portal. This update is in preview.
+Expanded functionality and compatibility with Logic Apps Standard:
+.NET Custom Code Support:
+Users will be able to extend low-code workflows with the power of .NET 8 by authoring a custom function and calling from a built-in action within the workflow. This feature is in preview.
+Logic Apps connectors for IBM mainframe and midranges
+: These connectors allow customers to preserve the value of their workloads running on mainframes and midranges by allowing them to extend to the Azure Cloud without investing more resources in the mainframe or midrange environments using Azure Logic Apps. This update is generally available.
+Other updates, in preview, include
+Azure Integration account enhancements and Logic Apps monitoring dashboard.
+Additional resources:
+Email:
+Contact the Microsoft Media and Analyst Events Team for more information
+1.5.17. Visual Studio 17.10 now integrates GitHub Copilot
+Microsoft Visual Studio 17.10 introduces a significant leap in coding productivity with the
+integration of GitHub Copilot
+directly into the integrated development environment (IDE)
+, transforming the way developers code, debug and manage projects. This update, now generally available, revolutionizes the development experience with smarter, context-aware coding assistance and intuitive interfaces for an enhanced workflow.
+This update also brings several key enhancements designed to further streamline project management and development processes. These enhancements are all generally available and include:
+Unified settings experience:
+An advanced, JSON-based settings interface simplifies IDE customization, allowing developers to easily configure their environment and share settings across teams. This ensures consistency and saves time setting up new development environments.
+Enhanced debugging and diagnostics:
+With an improved Attach to Process dialog and tools like Conditional Breakpoints, developers can diagnose and resolve issues faster and more intuitively, reducing downtime and streamlining the troubleshooting process.
+C++ and game development enhancements:
+Specific improvements, such as pinning CMake Targets and updates to Unreal Engine macros, directly address the unique needs of C++ and game developers, enhancing productivity and simplifying project management in these complex fields.
+Microsoft Teams and Microsoft 365 development tools:
+New tools for offline Teams Bot debugging and Microsoft Copilot for Microsoft 365 extensions make it easier to develop apps within these ecosystems, encouraging innovation and facilitating the creation of integrated, efficient apps.
+Productivity tools:
+Modernized settings interfaces, AI-powered code reviews and diagnostics improvements not only enhance code quality but also provide deeper insights into app performance, helping developers to make informed decisions and optimizations.
+Extensibility and WinForms enhancements:
+New capabilities for extending the Visual Studio Marketplace and performance upgrades for the WinForms designer cater specifically to enterprise development needs, offering more robust and efficient development tools.
+SQL Server Dev Tools for Arm64:
+Extending
+SQL Server Data Tools (
+SSDT) support to Visual Studio on Arm64 meets the growing demand for SQL developer tooling on these devices, enabling developers to work on SQL projects in a more versatile hardware environment.
+Additional resources
+:
+Blog:
+Visual Studio 2022 17.10 and GitHub Copilot: Your Coding Partner for Faster and Smarter Development
+Breakout:
+What’s new in GitHub Copilot and the Visual Studio family
+Breakout:
+Maximize joy, minimize toil with great developer experiences
+Breakout:
+Demystify cloud-native development with .NET Aspire
+Demo:
+Tips & Tricks for Visual Studio and GitHub
+1.5.18. Visual Studio Code for Education now generally available
+Microsoft Visual Studio Code for Education
+is a free, online computer science education platform that will provide an integrated curriculum and a sandbox coding environment for everyone. With zero setup or installation, anyone can be a developer and start learning to code with Visual Studio Code. Guided by the support, insights and partnership of collaborating educators and students, Visual Studio Code for Education will be generally available at the end of the month, and features of the release will include:
+Future-ready skills
+: With Python being the most popular programming language to learn, according to the 2023 TIOBE and PYPL indexes, students who use Visual Studio Code for Education will be well-equipped for the demands of the workplace by taking the Introduction to Python course and any of the “bite-size” coding activities.
+Coding for everyone
+: Visual Studio Code for Education will make coding more accessible than ever by being free and available across multiple devices, platforms and browsers. This will ensure that anyone, anywhere, can practice coding at any time. The platform’s education-focused curriculum is designed to be inclusive, offering clear explanations and relevant examples that make learning code a realistic goal for all learners.
+Simplified and secure
+: Visual Studio Code for Education will simplify the learning process with a streamlined code editing experience that’s optimized for education. It will feature a content window for learning materials, a simplified user interface and an intuitive layout, making it easier for students to master essential coding concepts. The platform’s one-click-to-code functionality removes any setup barriers, allowing students to start coding immediately.
+Additional resources
+:
+Email:
+Contact the Microsoft Media and Analyst Events Team for more information
+1.6. Microsoft Copilot capabilities in Azure
+1.6.1. Microsoft Copilot in Azure preview open to all customers
+Microsoft Copilot in Microsoft Azure
+, now in preview to all customers, will have added capabilities that give full autonomy to enable or disable Copilot in Azure tenants and selectively grant Copilot access to specific user groups within a tenant. These capabilities underscore the commitment to providing a flexible and secure environment that aligns with customers’ operational standards and paves the way for broader adoption. The preview also unveils new enhancements, including:
+App troubleshooting:
+Copilot will enable customers to diagnose and resolve app issues using conversational queries. Simply ask, “Why is my app slow?” or “How do I fix this error?” and Copilot will navigate a customer through potential causes and fixes, leveraging insights from Azure App Service diagnostics.
+SQL database management and natural language queries
+: Copilot’s reach will be extended to Azure SQL Database, introducing capabilities that assist in the efficient management and operation of SQL-dependent apps. These tools will draw from a variety of sources, including public documentation, dynamic management views, Query Store, catalog views and Azure supportability diagnostics. Moreover, the SQL Database query editor will feature a Copilot experience that converts natural language inquiries into T-SQL commands, making database queries more user-friendly.
+Additional resources
+:
+Learn more about this update
+.
+Blog:
+Powering your AI innovations – making more possible
+Breakout:
+Unlock potential on Azure with Microsoft Copilot
+2. Copilot at Work
+2.1. Microsoft 365
+2.1.1. Create copilots in SharePoint
+As a part of the Microsoft Copilot evolution and introduction of copilot capabilities for process automation, organizations will soon elevate
+employee self-service by empowering anyone to create a copilot
+that provides a new level of information, context and discoverability from knowledge in documents and files on SharePoint sites. These copilots help individuals find the files they need and can even answer questions based on the contents of the SharePoint site. Easy to create in just a few clicks, with additional enhancements available using Microsoft Copilot Studio, these copilots can be easily shared within an organization. This new capability is now available in an
+Early Access Program
+, and will be available in preview coming later this year.
+Additional resources
+:
+Blog:
+Microsoft Build 2024: Create custom copilots from SharePoint
+Keynote:
+Microsoft Build opening keynote
+Breakout:
+Integrating Copilot into SharePoint and Viva Connections
+Read more about more Microsoft 365 updates in the Book of News
+2.1.2. Extend and customize Microsoft Copilot with Copilot extensions
+Microsoft is unifying all Microsoft Copilot extensibility concepts, including plugins and connectors, into a single construct called
+Copilot extensions
+.
+Copilot extensions will enhance Microsoft Copilot by enabling new actions and customized knowledge for grounding within Copilot. With Copilot extensions, users will get a Copilot experience that is tailored with the data, systems and workflows they use every day — all in the flow of their work.
+Developers will be able to create Copilot extensions with Microsoft Copilot Studio or by using Microsoft Teams Toolkit for Visual Studio Code. Copilot extensions from leading apps like Jira, Priority Matrix and Mural are available in preview for Copilot for Microsoft 365, along with company-developed line-of-business Copilot extensions. IT admins will be able to control and manage access to extensions via the Microsoft 365 admin center.
+Developers will be able to include plugins in their Copilot extensions more easily from their API endpoints by using Teams Toolkit for Visual Studio Code and will be able to utilize new user experience features like handoffs to other AI assistants. This new capability in Teams Toolkit is in preview.
+Additional resources
+:
+Blog:
+New agent capabilities in Microsoft Copilot unlock business value
+Breakout:
+Developer’s Guide to Customizing Microsoft Copilot
+Breakout:
+Extend Microsoft Copilot with Copilot Studio
+Breakout:
+Developer deep dive on building plugins for Copilot with VS Code
+Breakout:
+Build your own copilot with Microsoft Copilot Studio
+Breakout:
+Reach 320M+ users in flow of work building your own copilot for Teams
+Breakout:
+Grow your business with Copilot extensions and marketplace
+Breakout:
+Transforming the most valuable industry workflows with Copilot
+Read more about more Microsoft 365 updates in the Book of News
+2.1.3. Introducing Team Copilot, a valuable new member of the team
+Team Copilot expands Copilot for Microsoft 365 from a behind-the-scenes personal AI assistant to a valuable new team member, improving collaboration and project management. Team Copilot acts on behalf of a team, a department, or an entire company and you’re always in control – assigning tasks or responsibilities to Copilot so the whole team can be more productive, collaborative, and creative, together.
+Team Copilot will be available where you collaborate – in Teams, Loop, Planner, and more:
+Meeting facilitator:
+Copilot will enable a more productive discussion in meetings by managing the agenda and taking notes that anyone in the meeting can co-author.
+Group collaborator:
+Copilot will help everyone get more out of chats, surfacing the most important information, tracking actions items, and addressing unresolved issues.
+Project manager:
+Copilot will ensure every project runs smoothly by creating and assigning tasks, tracking deadlines, and notifying team members when their input is needed.
+These capabilities will be available for customers in preview later this year. To access the preview, a Copilot for Microsoft 365 license will be required.
+Additional resources
+:
+Blog:
+What’s next: Microsoft Build continues the evolution and expansion of AI tools for developers
+Blog:
+New agent capabilities in Microsoft Copilot unlock business value
+Keynote:
+Microsoft Build opening keynote
+Read more about more Microsoft 365 updates in the Book of News
+2.2. Power Platform
+2.2.1. Copilot Studio powering next wave of copilot experiences
+A new set of capabilities in
+Microsoft Copilot Studio
+will enable developers to build copilots that can act like agents, to run and orchestrate many common business processes, integrate line-of-business data directly into copilot experiences and publish new Copilot extensions.
+Copilot agents
+in Copilot Studio are now in an Early Access Program. With Copilot Studio, new capabilities in Microsoft Copilot will act as agents that can independently orchestrate tasks tailored to specific roles and functions. These new capabilities will allow users to delegate authority to Copilot to automate long-running business processes, reason over actions and user inputs, leverage memory and knowledge for context, learn based on user feedback and exception requests and ask for help when it encounters situations that it doesn’t know how to handle.
+Copilot connectors
+in Copilot Studio, in preview, will bring together Microsoft Graph and Power Platform connectors, AI skills in Microsoft Fabric (in private preview) and Microsoft Dataverse to make the process of grounding copilots in first- and third-party line-of-business data a wizard-based experience configured through Copilot Studio. This will enable developers to quickly incorporate their organizational knowledge into copilots, enable new actions and add real-time intelligent Q&A over productivity, operational and analytical data.
+Publish Copilot extensions
+to Copilot for Microsoft 365 and directly within Microsoft Teams, currently in private preview. Copilot extensions built with Copilot Studio will allow developers to customize copilots with instructions, knowledge from data sources and actions from plugins, Microsoft Power Automate flows and more. They will be simple to build and will enable extensibility and customization for specific domains or personas, such as expense reporting or employee onboarding, enabling a more relevant and personalized copilot experience.
+Copilot extensions will be published through Partner Center
+. This will allow Copilot extensions to be available to users to install from the store in Copilot and app stores in Microsoft 365 products like Teams and Outlook. This update is in preview.
+Conversational analytics in Copilot Studio
+, in preview, will give deep insights into user engagement with custom copilots, providing developers with valuable metrics designed to enhance user satisfaction.
+A new conversational design experience
+, in preview, will enable easier development and configuration of copilots via conversational, human-like interaction. This update will simplify the authoring experience.
+Templates,
+in preview, will allow users to build copilots faster with pre-built templates including IT helpdesk, Order tracking, Travel assistance and more.
+Additional resources
+:
+Blog:
+Microsoft Copilot Studio: Building copilots with agent capabilities
+Breakout:
+What’s new with Microsoft Copilot Studio
+Breakout:
+Microsoft Copilot extensions with Copilot Studio
+Breakout:
+Build your own copilot with Microsoft Copilot Studio
+Demo:
+Build your own Copilot extension with Microsoft Copilot Studio
+Download visual assets
+Read more about more Power Platform updates in the Book of News
+2.2.2. Power Automate updates feature AI and process automation
+Several new innovations are being launched in Microsoft Power Automate, capitalizing on process automation and generative AI to help revolutionize the way people work. These updates, available through an Early Access Program, include:
+AI flows
+in Power Automate will offer a brand-new type of outcome-based automation that will allow generative AI to achieve a result by building a flow autonomously, without requiring users to map out every process step. Users describe what they want to achieve in natural language, along with any parameters for the flow. Every time the flow runs, AI determines what sequence of steps and actions are required at each step to accomplish the specified goal. IT stays in control with tight loops and preset guard rails.
+Two new generative AI features that will be added to desktop flows in Power Automate include:
+New
+AI recorder
+will create a more natural, multimodal experience where users create flows by both showing and telling the recorder how to automate a task. Until now, desktop recorders only tracked mouse clicks and keyboard entries. Users will be able to provide additional context to the recording by coaching it with their voice and sharing their screen — just like how a person would be trained to accomplish a task when they start a new job.
+For users that want to build rules-based desktop flows faster and more easily,
+natural language to flow capabilities
+will be available for desktop. Users can describe the steps of the process they want to automate, let AI build it and then edit the flow as necessary before they publish.
+Users can build, optimize and better manage automation with these additional product enhancements, now in preview:
+Automation Center
+will provide in-depth monitoring and troubleshooting capabilities, providing an end-to-end view of company-wide automation statusincluding SLA attainment, average processing time and work queue throughput.
+Flows inside Microsoft Copilot
+willallow users to discover and run flows as plugins in Copilot for Microsoft 365.
+Conversational cloud flows
+will allow users to create, refine and troubleshoot workflows using natural language.
+Personal automation recommendations from Microsoft Graph
+will optimize personal processes based on patterns in the work.
+Additional resources
+:
+Blog:
+Revolutionize the way you work with automation and AI
+Breakout:
+Revolutionize the way you work with automation and AI
+Demo:
+Secure and govern Copilot within enterprise-grade low code solutions
+Read more about more Power Platform updates in the Book of News
+3. Edge
+3.1. Edge
+3.1.1. Microsoft Edge for Business boosts defenses against data leaks, vulnerabilities
+Microsoft Edge for Business is enhancing its defense against data leaks and vulnerabilities with two new capabilities:
+Screenshot prevention:
+Data exfiltration in the browser is a major concern for organizations due to financial, reputational and operational impact. Edge for Business will support screenshot prevention policies set across Microsoft 365, Microsoft Defender for Cloud Apps, Microsoft Intune Mobile Application Management and Microsoft Purview. Screenshot prevention policies will secure against data exfiltration in the browser by blocking the ability to take screenshots on pages labeled as sensitive or protected. Screenshot prevention will be generally available in the coming months.
+Easily stay up to date:
+Managed browser instances that are not up to date are at risk for exploitation through vulnerabilities, including zero-day attacks. The Edge management service will enable IT admins to see which devices have Edge instances that are out of date and at risk. It will also provide mitigating controls, such as forcing a browser restart to install updates, enabling automatic browser updates or enabling enhanced security mode for added protections. This capability will be in preview in the coming weeks.
+Additional resources
+:
+Blog:
+Microsoft Edge for Business: Revolutionizing your business with AI, security and productivity
+On Demand:
+Edge for Business: secure, productive, optimized for AI
+Download visual assets
+3.1.2. Real-time video translation in Microsoft Edge coming soon
+There’s more video content available than ever, but much of it is inaccessible to large parts of the population who are deaf, hard of hearing or have other language barriers. Real-time video translation in Microsoft Edge, coming soon, will use AI to translate videos across multiple video websites into users’ language of choice in real-time through dubbing and/or subtitles.
+Real-time video translation will be available across popular video websites, such as YouTube, LinkedIn, Reuters, CNBC News, Bloomberg, Coursera and more. Currently, real-time video translation will be available from Spanish to English and from English to German, Hindi, Italian, Russian and Spanish. There are plans to add additional languages and video platforms in the future.
+Additional resources
+:
+Blog:
+Microsoft Edge for Business: Revolutionizing your business with AI, security and productivity
+Download visual assets
+On Demand:
+Edge for Business: secure, productive, optimized for AI
+4. Microsoft 365
+4.1. Modern Work
+4.1.1. AI extensibility for Mesh in preview
+Developers will be able to integrate AI into their 3D experiences, leveraging Microsoft Azure OpenAI Service to access large language models. With this new feature, now in preview, users will be able to interact with AI guides inside Microsoft Mesh environments to give them the benefit of AI while being immersed. Developers can start now by downloading the
+Mesh 201 sample and tutorial
+and learn how Mesh with AI can aid productivity and decision making in immersive experiences.
+Additional resources
+:
+Email:
+Contact the Microsoft Media and Analyst Events Team for more information
+On Demand:
+Creating Immersive 3D Solutions with Microsoft Mesh
+4.1.2. Fluid Framework 2.0 now in preview
+Fluid Framework
+is an open-source technology from Microsoft that empowers developers to quickly build real-time collaborative apps. Fluid Framework 2.0 will make it even easier for developers to build apps with complex, hierarchical data models using
+SharedTree
+.
+Fluid Framework automatically synchronizes changes to this data to all users in a collaborative session, greatly simplifying the developer experience. The SharedTree data model is defined by a schema, which enables developers to use Fluid data structures like other TypeScript/JavaScript data structures. This means developers can continue to follow the same programming paradigms for developing local-first apps, while getting the benefits of real-time collaboration through Fluid Framework. SharedTree also comes with transactions support for changes, undo/redo and event listener that make it easier to detect changes.
+Fluid Framework 2.0 will add support for
+Microsoft
+SharePoint Embedded
+. This new service option will enable app developers to store their collaboration data in their users’ Microsoft 365 tenant, benefiting from all the features of Microsoft 365 storage. SharePoint Embedded support, in addition to the existing Microsoft Azure Fluid Relay support, will give developers more choice and flexibility in picking the best service pairing for their Fluid Framework apps based on their customer’s needs.
+Fluid Framework 2.0 is now available in preview and will be generally available this summer. Developers can get started today at
+Fluid Framework: Build performant real-time collaboration with ease
+.
+Additional resources
+:
+Blog:
+Announcing Fluid Framework 2.0 Preview
+On Demand:
+Build intelligent collaborative apps with Copilot + Fluid Framework
+4.1.3. New AI-powered features and enhanced data protection in Microsoft Teams Premium
+New features in Microsoft Teams Premium include enhancements to AI-powered features and additional data protection capabilities. These features include:
+Intelligent recap support for meetings with only transcription enabled.
+Intelligent recap will be available in meetings with only transcription but not recording enabled. In these meetings, Intelligent recap will provide AI-generated meeting notes, AI-generated tasks and name mentions. This feature will be generally available in Teams Premium and in Copilot for Microsoft 365 in June 2024.
+Meeting organizers will be able to manage who can record and transcribe meetings
+. The existing “Who can record” control for meeting organizers will include transcription. With this change, meeting organizers who have a Teams Premium license will see a control called “Who can record and transcribe” in the meeting options, which will allow meeting organizers to select from two options: (1) organizers and co-organizers or (2) organizers, co-organizers and presenters. This feature will be generally available next month.
+Prevent users from sharing content in externally hosted meetings
+. IT admins can now specify which meetings are enabled to share content with external participants. This feature is now generally available.
+Additional resources
+:
+Blog:
+What’s New in Microsoft Teams
+4.1.4. New enhancements for custom app experiences connected to Microsoft Teams
+Many companies, such as healthcare providers and consultants, use Microsoft Teams as part of their own custom branded app or website to connect through video calls and chat with customers. Several new features, already widely used in Teams, are now available in custom apps and website experiences built with Microsoft Azure Communication Services, including:
+Microsoft PowerPoint Live
+: The presenter and participants can both have an inclusive and engaging experience, utilizing the best parts of presenting in PowerPoint with the connection and collaboration of a Teams meeting.
+Live Reactions
+: During meetings, participants can select “react” emojis in the meeting controls to share reactions to what’s being shared.
+File sharing
+during a meeting:
+Teams users can share Microsoft SharePoint files in chat with users joining from a custom app or web experience.
+Real-time transcription using Azure AI Speech
+will allow users to receive text in real time from an ongoing call to ensure accurate recordkeeping. This feature is in preview.
+Closed captions
+promote accessibility by displaying text of the audio in video calls. Already available for app-to-Teams calls, this release adds support for closed captions in all app-to-app calls.
+Picture-in-picture for iOS and Android
+enables customers to take video calls while simultaneously browsing other tabs or completing tasks in other windows. The video calls can be detached from the original tab and floated anywhere on the screen.
+Noise suppression during a video call
+reduces background noise and enhances speaker voices to minimize call disruptions.
+Call Diagnostics Center
+analyzes calling data from app-to-Teams calls to identify causes of poor call quality and reliability, including poor internet connectivity, software compatibility issues and technical difficulties with devices.
+Except where noted, all of these features are now generally available.
+Additional resources
+:
+Blog:
+Build 2024: Effective & intelligent communication for apps interacting with Teams and WhatsApp
+4.1.5. New features in Microsoft Teams and Loop help teams collaborate more effectively
+Several updates in Microsoft Teams and Microsoft Loop are designed to help people, including developer teams, collaborate more effectively. These updates include:
+Custom emojis and reactions in Teams
+will allow users to express themselves more creatively and authentically with the ability to upload their own emojis or reactions. Once uploaded, custom emojis will only be visible within the user’s tenant. IT admins will be able to decide who has permission to create custom emojis, delete custom emojis or turn off the capability altogether. This update will be in preview next month.
+Slash commands in the compose box:
+Teams users will be able to access slash (/) commands directly in the compose box to take contextual actions or compose, navigate and complete frequent tasks. Instead of taking multiple actions, users will be able to type slash (/) in the compose box, select a command and complete the task. This update is in preview.
+Unfurling permalinks
+: When a developer shares code via a permalink in Teams chat, it now expands to provide a rich preview from Microsoft Azure DevOps, enabling the recipient to view the code in the source app. This update is generally available.
+Loop-supported Code Blocks
+: When developers are working collaboratively on code, they can now insert code into a Loop component or convert a native Code Block to a Loop component, which can be shared across Teams chat and channels and in Microsoft Outlook. Everyone with access to the Loop component can review and co-edit the code, and the changes stay up to date across all the places where the Loop component was shared. This feature is currently rolling out.
+Mermaid integration into Loop Code Blocks
+: Mermaid is a JavaScript-based diagramming and charting tool that renders Markdown-inspired text definitions to enable developers to create flow charts, sequence diagrams, class diagrams and more. Mermaid will be integrated into Loop Code Blocks, so developers can collaborate on technical discussions and documentation right from a Loop page. This integration will be available in preview in the coming weeks.
+Adaptive Card-based Loop components
+enable users to insert third-party Adaptive Card-based Loop components from services like Jira, Trello, Confluence Cloud, Lucid Software, Mural and Priority Matrix directly in Teams chats and channels and Outlook email. Once inserted, users can update the content in the chat, channel or email. The content stays up to date across all the places where the Adaptive Card-based Loop component was shared. This feature is now generally available in Teams and will be coming soon to Outlook.
+Additional resources
+:
+Blog:
+What’s new in Teams
+Breakout:
+Accelerate DevOps & Incident Management workflows with Microsoft Teams
+On Demand:
+Leveraging Loop Copilot for enhanced productivity and collaboration
+On Demand:
+Enhance engineering team efficiency with Loop and Copilot
+Download visual assets
+4.1.6. SharePoint Embedded now generally available
+Microsoft SharePoint Embedded
+, now generally available, is a new way for developers to build file- and document-centric apps that can be integrated with custom copilots to help organizations get the most value from their information. Powered by the Microsoft Graph API, SharePoint Embedded is a headless, API-only, way to deliver Microsoft 365 capabilities via both enterprise and independent software vendor (ISV) apps, freeing developers to work on their unique, value-added capabilities. SharePoint Embedded delivers global enterprise-ready collaboration, compliance and content management, integrates seamlessly with copilot and is already in use across industries like legal, finance, IT and more.
+Additional resources
+:
+Blog:
+Announcing SharePoint Embedded General Availability
+Keynote:
+Microsoft Build opening keynote
+On Demand:
+Integrating Copilot into SharePoint and Viva Connections
+5. Power Platform
+5.1. Power Platform
+5.1.1. New features in Microsoft Dataverse in preview
+Using the new
+security hub feature
+in the Microsoft Power Platform admin center, administrators will be able to quickly assess the security posture for a tenant, identify and act on the most impactful recommendations to improve the posture, proactively set policies in place to safeguard from vulnerabilities and risks and use a rich set of tools and security capabilities available to gain deep visibility and detect threats effectively. New controls available in security hub will include Microsoft Azure Virtual Network support for Power Platform, which will enable customers to integrate Power Platform with resources inside their virtual networks without exposing them over the public internet. Additionally, Microsoft Entra ID Privileged Identity Management support for Power Platform will enable customers to grant administrative permissions to specific Power Platform environments on a temporary basis, thereby improving security posture. These new features are in preview.
+Additional resources:
+Blog:
+Unlock new levels of productivity with Microsoft Dataverse and Microsoft Copilot Studio
+Breakout:
+Activate enterprise data in AI-enabled business applications
+Breakout:
+Secure and govern Copilot within enterprise-grade low code solutions
+Breakout:
+Build Microsoft Copilot extensions with Copilot Studio
+5.1.2. New security features in Power Pages help monitor, protect sites
+Microsoft Power Pages empowers users to create dynamic, customizable sites tailored to their specific needs. New security and AI features cater to a wide spectrum of users with tailor-made solutions.
+A newly introduced
+security workspace
+that seamlessly integrates into the Power Pages design studio will provide value-add security features to safeguard sites from potential data breaches, limit user access and permissions and promote secure hosting. Makers will be able to proactively monitor sites by running comprehensive security scans to identify vulnerabilities before they impact business operations. This feature is available in preview.
+Power Pages upgraded with Web Application Firewall (WAF)
+will also offer enhanced capabilities, including IP filtering and Geo filtering to strengthen against cyber threats. Users will be able to easily manage access control with authentication and authorization configurations. With a built-in Microsoft Copilot experience that assists with security-focused Q&A, security testing and summarizing scan results, they will stay in control and informed. This feature will be generally available next month.
+Additional comprehensive feature updates, all in preview, include:
+Virtual tables with
+no-code connectivity to Salesforce and Oracle databases.
+The ability to use
+Power Fx formulas
+in the Power Pages design studio.
+Enhanced search efficiencies across multiple tables with
+generative AI-powered search.
+The ability to
+integrate data from Microsoft Fabric and Microsoft Dynamics 365 Business Central
+into Power Pages websites without coding, enabling self-service actions for suppliers using templates, which is yet another example of data connectivity with SAP.
+Additional resources
+:
+Blog:
+Microsoft Power Pages is bringing the new standard in secure, AI-powered capabilities
+Breakout:
+Reimagine Enterprise Website building with Low Code using Power Pages
+Demo:
+Build enterprise websites over Salesforce and Oracle using Power Pages
+Demo:
+Build Dynamic website content using Power Fx and Power Pages
+5.1.3. Power Apps updates help developers build apps at scale
+Microsoft Power Apps will make it even easier to build and deploy modern enterprise apps at scale. Developers will be able to build comprehensive apps faster and more cost effectively than before. New improvements, now in preview, include:
+Native Git integration:
+Developers will be able to synchronize their Power Apps environment and Git repositories. By connecting the two, development teams will be able to see and track all changes, quickly and seamlessly integrate their development processes, quality tools and best practices directly into their Power Apps environment and reduce the time it takes to build an app. Unlike previous application lifecycle management (ALM) tools that were complex to set up and required makers to jump between toolsets, Git integration and pipelines in Power Platform will be available for all makers, will be on by default and will drive consistency of ALM processes and governance across projects.
+Microsoft Copilot in apps on mobile:
+Developers will be able to modernize mobile apps for frontline workers with Copilot on mobile devices. Frontline workers will soon be able to use voice activation and generative AI to complete tasks, including collecting and submitting information. This will enable workers to be productive while being hands-free. Developers will be able to customize and extend Copilot in Power Apps by using Microsoft Copilot Studio to create specialized conversational experiences.
+Canvas apps:
+Power Apps is also bringing collaboration to canvas apps, via coauthoring. Multiple makers can edit a canvas app at the same time with live coauthoring in the same style as Microsoft 365 apps, such as PowerPoint, Word or Excel.
+Coauthoring
+was previously announced in the modern app designer and is now available in preview across experiences, so all makers can work better together.
+Code in Power Apps Studio:
+Viewing and using source code for canvas apps can be cumbersome. Developers will be able to work with code directly in Power Apps Studio, making it easy to view and use source code in a readable YAML format. Developers will be able to copy controls from Power Apps Studio in YAML format or paste YAML snippets to Power Apps Studio to create controls. They will be able to create templates for screens, reuse code and store the files in a code repository, all of which saves time and makes it more efficient to build in the future.
+Additional resources
+:
+Blog:
+Power Apps is making it easier for developers to build with Microsoft Copilot and each other
+Breakout:
+Enable every developer to collaborate with low code + pro code
+Breakout:
+Using Power Platform to accelerate full-stack software development
+Breakout:
+Building the apps of the future today with Power Platform and Copilot
+6. Windows
+6.1. Windows
+6.1.1. Improvements to the developer experience in Windows
+New features and updates to Windows developer products and tools aim to boost developer productivity and the underlying Windows speed. These updates include:
+Environments in Dev Home
+will enable developers to centralize their interactions with all their remote environments from a single place, right from Dev Home. Developers will be able to create, manage, launch and configure their environments in a snap. This update is available in preview.
+Windows Customization
+in Dev Home will allow developers to discover powerful Windows settings like Dev Drive Insights and Advanced File Settings and configure their devices to a ready-to-code state with the fewest clicks. This feature is available in preview.
+Windows Subsystem for Linux (WSL)
+and a subset of Microsoft PowerToys utilities will be accessed from Dev Home in the Environments and Utilities sections, respectively. The PowerToys utilities will include Hosts File Editor, Environment Variables and Registry. This update is available in preview.
+WSL introduces a new settings app with its independent GUI to help developers better manage WSL, allowing them to view and modify WSL settings such as new networking modes and memory availability WSL now incorporates two new Zero Trust features, Linux Intune Agent and Integration with Microsoft Entra ID, to enable system administrators to enhance corporate security. This update is in preview.
+PowerToys introduces
+Advanced Paste
+to transform clipboard contents contextually before pasting within any app. This includes pasting plain text, JSON and markdown, as well as pasting text from images or audio files using local AI models. This feature is generally available.
+Sudo for Windows
+enables developers to minimize unnecessary context switching between their development workflows, so their favorite commands work regardless of where they are.This update is generally available.
+Windows performance improvements:
+Dev Drive introduces Block Cloning, now generally available, which allows developers to perform large file copy operations instantaneously, driving performance improvements in critical developer scenarios. Dev Drive Insights, in preview, will provide developers with tips and tools to optimize their device performance. Lastly, File Explorer, now generally available, introduces the ability to compress files to 7z and tar, as well as provides more compression formats for developers to choose from.
+Additional resources
+:
+Blog:
+Unlock a new era of innovation with Windows Copilot Runtime and Copilot+ PCs
+Breakout:
+Windows Subsystem for Linux, Your enterprise ready multitool
+Breakout:
+Developer experience improvements in Windows
+Breakout:
+Level up your dev box, how devs at Microsoft are productive on Windows
+6.1.2. Introducing the next generation of Windows on Arm
+Qualcomm is announcing the powerful
+Snapdragon Dev Kit for Windows,
+powered by Snapdragon X Elite, and is designed to be a developer’s everyday dev kit, providing all the power and flexibility developers need. It comes with 32 GB memory, 80 W+ Peak TDP and 4.3 GHz 12 Core CPU.
+The rich ecosystem of apps and libraries compiled natively to Windows on Arm continues to grow. In addition to the Microsoft products and tools optimized for Arm64, developer and creator tools like the Unity games editor, Blender, Docker, GIMP and important libraries like Qt are all on track to deliver Arm-native versions this year.
+Additionally, Prism, the new emulation engine that will more efficiently generate emulated code making emulated apps run faster on all Windows on Arm devices, is available in preview. Prism will translate x86/x64 code to Arm64 and works in the background when an x64 app is opened on a Windows on Arm device.
+Additional resources:
+Blog:
+Unlock a new era of innovation with Windows Copilot Runtime and Copilot+ PCs
+Breakout:
+Introducing the Next Generation of Windows on Arm
+6.1.3. Wide array of Windows developer AI updates
+Several new updates and features that utilize AI to help developers include:
+Windows Copilot Runtime:
+Windows Copilot Runtime extends Microsoft Copilot Stack to Windows and has AI infused into every layer of Windows, including a fundamental transformation of the operating system itself. Windows Copilot Runtime has everything developers need to build great AI experiences regardless of where they are on their AI journey. Windows Copilot Runtime includes Windows Copilot Library and AI frameworks and toolchains.
+Windows Copilot Library:
+Windows Copilot Library is a set of APIs that are powered by the 40+ on-device models that ship with Windows to help developers integrate new experiences in their own apps. Windows Copilot Library provides a rich set of functionalities that will enhance developers’ ability to take advantage of AI in Windows. Developers will be able to access Studio Effects, Live captions translations, Phi Silica, OCR and Recall User Activity APIs as part of the
+Windows App SDK
+release in June. More APIs like Text Summarization, Vector Embeddings and RAG API will be coming later.
+Windows Semantic Index redefines
+search on Windows:
+Recall, a new feature on Copilot+ PCs, is built on Windows Semantic Index and Semantic Understanding service, making past activity on Windows easily accessible via natural language semantic search. Developers can enrich Recall with Recall User Activity API call, driving engagement with apps. Later, this capability will be available for developers with Vector Embeddings API to build their own vector store and RAG within their apps and with their app data to enable natural language search in their apps.
+DirectML supporting 4-bit quantization:
+Now with DirectML, developers can scale language models across the Windows GPU hardware ecosystem to reach the breadth of their customers. ONNX Runtime and techniques like Activation-Aware Quantization (AWQ) can dramatically reduce a model’s memory footprint while mostly preserving model accuracy. This is generally available.
+ONNX Runtime generative AI library:
+This will provide the generative AI loop for ONNX models that takes care of inferencing with ONNX Runtime, logits processing, search and sampling and KV cache management, making it easy for developers to simply drag and drop large language models (LLMs) into their apps. With DirectML for ONNX Runtime, developers will be able to deploy generative AI models quickly and easily across Windows hardware. This is in preview.
+WebNN powered by DirectML:
+DirectML will support WebNN, an emerging web standard that utilizes ONNX Runtime Web to enable web apps to leverage underlying hardware to deliver AI experiences across Windows devices at near native performance. Support across graphics processing units (GPUs) is in preview. Broader accelerator coverage to includeneural processing units (NPUs) will be in preview this summer.
+PyTorch on Windows:
+DirectML on Windows now supports another popular framework, PyTorch. This enables developers to bring Hugging Face models to Windows and by targeting DirectML developers can scale their AI innovation on varied Windows hardware. PyTorch with DirectML on Windows is generally available.
+Phi Silica
+, a transformer-based, 3.3B parameter local generative language model, is the first small language model (SLM) locally deployed on Windows. It is optimized to run on the NPUs in Copilot+ PCs, bringing local inferencing and achieving first-token latency performance. Developers can access the Phi Silica API and deliver user experiences across the Windows ecosystem.​
+Additional resources
+:
+Blog:
+Unlock a new era of innovation with Windows Copilot Runtime and Copilot+ PCs
+Breakout:
+Create Generative AI experiences using Phi
+Breakout:
+Use AI for “real things” in your Windows Apps
+Breakout:
+Bring AI experiences to all your Windows Devices
+Demo:
+PowerToys Advanced Paste with Local AI
+Demo:
+Run your AI apps across Windows devices
+Demo:
+Designing for a brand new Windows AI feature
+6.1.4 Windows Security additions and updates
+New Windows Security features are designed to help fortify apps and systems so the user’s ecosystem stays protected and privacy aware. Updates to Windows Security include:
+Virtualization-based security (VBS) key protection
+will protect keys from admin-level attacks. With credential theft being a top vector for attack, key protection should be a top priority for developers. This update is in preview.
+Personal Data Encryption
+will enhance security by encrypting data and only decrypting it when users unlock their PCs by using Windows Hello for Business. This update is in preview.
+NTLM-less
+to strengthen user authentication
+: The reliability and flexibility of Kerberos has been expanded to reduce NTLM dependencies. These changes are exposed through the “Negotiate” protocol. This update is generally available.
+VBS Enclaves
+is a software-based trusted execution environment within the host app’s address space, providing deep OS protection of sensitive workloads — such as decrypted data — and enabling developers to protect sensitive workloads. This update is generally available.
+Attestation:
+Developers can remotely and securely verify, or attest, critical device health artifacts, credentials and key materials within their apps. When an app is integrated with the attestation service, it can verify device health and define customized actions. Today the Attestation service supports device health, TPM and VBS key storage providers.
+Zero Trust DNS (ZT-DNS)
+will enable native domain-name-based lockdown of Windows devices for high security environments. When ZT-DNS is enabled on a Windows device, all outbound IPv4 and IPv6 traffic from the device will be blocked unless it is approved by a trusted Protective DNS server or a manual exception has been configured by the IT administrator. This update is in private preview.
+Win32 App Isolation
+will help contain damage and safeguard user privacy choices in the event of an app compromise. It will offer a security boundary and components that virtualize resources and provide brokered access to other resources. Using Win32 App Isolation capabilities, app developers will be guided to develop apps with least privilege resource access. This update is in preview.
+Making administrators more secure
+with user approved elevation
+: App developers should use the principle of least privilege and elevate to use critical PC resources only when required for the best user experience. This update will be in preview soon.
+Trusted Signing:
+Signing the app means when Smart App Control is enabled for all users, apps will be seamlessly installed on Windows and regarded as high reputation. This update is in preview.
+Additional resources
+:
+Blog:
+Unlock a new era of innovation with Windows Copilot Runtime and Copilot+ PCs
+On Demand:
+The Latest in Windows Security for Developers
+6.1.5. WinUI 3, WPF recommended native UI platforms for developers
+WinUI 3
+joins
+Windows Presentation Foundation (WPF)
+as the two recommended native UI platforms for developers. Microsoft is accelerating the adoption of WinUI 3 and Windows App SDK in its own Windows apps including Photos, File Explorer, Dev Home, PowerToys, Phone Link and others. It will take one click to install the workload required for building WinUI 3 and Windows App SDK from Visual Studio, lowering the barrier for entry for new Windows developers. This update is in preview.
+Additionally, Microsoft will refresh WPF with new Windows 11 theming and hyphen-based ligatures support for Microsoft .NET 9 and will continue to invest in WPF as one of the two preferred native user interface platforms on Windows. This update is in preview.
+Together, WinUI 3, Windows App SDK and WPF represent the best path forward for developers creating modern native desktop apps on Windows. WinUI 3 is used when the feature set meets the needs of the app, especially for graphics, media and consumer scenarios. WPF is used to leverage the large ecosystem of third-party controls and libraries available, especially those for line-of-business apps.
+Additional resources
+:
+Blog:
+Unlock a new era of innovation with Windows Copilot Runtime and Copilot+ PCs
+Breakout:
+Navigating Win32 App Development with WinUI and WPF
+Breakout:
+How to create superior experiences with WinUI and WPF
+Demo:
+Elevating app craftsmanship with WinUI 3
+Download Visual Assets
+Introduction
+Foreword by Frank X. Shaw
+What is the Book of News?
+1. Azure
+1.1. Azure AI Services
+1.1.1. Announcing Azure patterns and practices for private chatbots
+1.1.2. Announcing custom generative mode in preview soon
+1.1.3. Azure AI Search features search relevance updates and new integrations
+1.1.4. Azure AI Studio lets developers responsibly build and deploy custom copilots
+1.1.5. Azure OpenAI Service features key AI advancements
+1.1.6. Khan Academy and Microsoft announce partnership
+1.1.7. Microsoft adds multimodal Phi-3 model Phi-3-vision
+1.1.8. Safeguard copilots with new Azure AI Content Safety capabilities
+1.1.9. Speech analytics, video dubbing in preview in Azure AI Speech
+1.2. Azure Data
+1.2.1. Introducing Real-Time Intelligence in Microsoft Fabric
+1.2.2. New AI capabilities in Azure Database for PostgreSQL
+1.2.3. New capabilities and updates in Microsoft Fabric
+1.2.4. New capabilities in Azure Cosmos DB
+1.2.5. Snowflake Apache Iceberg shortcuts in Fabric
+1.3. Azure Infrastructure
+1.3.1. Azure Compute Fleet now in preview
+1.3.2. Azure Migrate and Azure Container Storage updates
+1.3.3. New Azure virtual machine series optimized for AI and cloud-native workloads
+1.4. Developer Community
+1.4.1. Microsoft for Startups Founders Hub gains AI capabilities
+1.4.2. New AI features for Microsoft Learn now available
+1.5. Developer Tools & DevOps
+1.5.1. .NET updates for developer community
+1.5.2. AI Toolkit for Visual Studio Code now in preview
+1.5.3. Azure API Center and generative AI capabilities in Azure API Management now available
+1.5.4. Azure App Service boosts performance and security for web app creation
+1.5.5. Azure Container Apps launches dynamic sessions
+1.5.6. Azure Functions launches Flex Consumption Plan, extensions
+1.5.7. Azure Kubernetes Service Automatic makes Kubernetes adoption easy
+1.5.8. Azure Service Bus updates now in preview
+1.5.9. Azure Static Web Apps features dedicated pricing plan
+1.5.10. Dev Box adds ready-to-code, enterprise management features
+1.5.11. Expanding extensibility model to Pulumi in Azure Deployment Environments
+1.5.12. Introducing GitHub Copilot extensions, featuring GitHub Copilot for Azure
+1.5.13. New Azure Event Grid capabilities support IoT solutions, event sources
+1.5.14. New enhancements and integrations in Azure Load Testing
+1.5.15. Spring Batch support for Azure Spring Apps Enterprise in preview
+1.5.16. Updates to Azure Logic Apps
+1.5.17. Visual Studio 17.10 now integrates GitHub Copilot
+1.5.18. Visual Studio Code for Education now generally available
+1.6. Microsoft Copilot capabilities in Azure
+1.6.1. Microsoft Copilot in Azure preview open to all customers
+2. Copilot at Work
+2.1. Microsoft 365
+2.1.1. Create copilots in SharePoint
+2.1.2. Extend and customize Microsoft Copilot with Copilot extensions
+2.1.3. Introducing Team Copilot, a valuable new member of the team
+2.2. Power Platform
+2.2.1. Copilot Studio powering next wave of copilot experiences
+2.2.2. Power Automate updates feature AI and process automation
+3. Edge
+3.1. Edge
+3.1.1. Microsoft Edge for Business boosts defenses against data leaks, vulnerabilities
+3.1.2. Real-time video translation in Microsoft Edge coming soon
+4. Microsoft 365
+4.1. Modern Work
+4.1.1. AI extensibility for Mesh in preview
+4.1.2. Fluid Framework 2.0 now in preview
+4.1.3. New AI-powered features and enhanced data protection in Microsoft Teams Premium
+4.1.4. New enhancements for custom app experiences connected to Microsoft Teams
+4.1.5. New features in Microsoft Teams and Loop help teams collaborate more effectively
+4.1.6. SharePoint Embedded now generally available
+5. Power Platform
+5.1. Power Platform
+5.1.1. New features in Microsoft Dataverse in preview
+5.1.2. New security features in Power Pages help monitor, protect sites
+5.1.3. Power Apps updates help developers build apps at scale
+6. Windows
+6.1. Windows
+6.1.1. Improvements to the developer experience in Windows
+6.1.2. Introducing the next generation of Windows on Arm
+6.1.3. Wide array of Windows developer AI updates
+6.1.4 Windows Security additions and updates
+6.1.5. WinUI 3, WPF recommended native UI platforms for developers
